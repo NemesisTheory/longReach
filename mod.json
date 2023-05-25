@@ -1,0 +1,9 @@
+{
+  "name": "longReach",
+  "displayName": "longReach",
+  "author": "NemesisTheory",
+  "description": "You can build anywhere on the map without need of moving. Based on Factorio mod. Use pan view.",
+  "version": "1",
+  "minGameVersion": "140",
+  "hidden": "false"
+}
