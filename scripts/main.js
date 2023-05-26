@@ -1,3 +1,5 @@
+// TODO: Make a 3 option slider that goes from default value, to specific number (e.g 100), to max value.
+
 Events.on(ClientLoadEvent, b => {
   UnitTypes.alpha.buildRange = Number.MAX_VALUE;
   UnitTypes.beta.buildRange = Number.MAX_VALUE;
