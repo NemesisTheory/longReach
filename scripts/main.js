@@ -87,5 +87,4 @@ Events.on(ClientLoadEvent, () => {
 TODO: add "lock movement" button to ease players, maybe one similar to scheme size's lock movement (because it's panning system is pro)
 nts: whats the point of big numbers (e.g. 2000, 4000, 8000) when Number.MAX_VALUE exist
      besides, 250 tile reach on a 500x500 map just sounds awkward
-TODO: redo everything
 */
