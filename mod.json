@@ -3,7 +3,7 @@
   "displayName": "longerReach",
   "author": "NemesisTheory",
   "description": "You can build anywhere on the map without need of moving. Based on Factorio mod. Use pan view. \n\nContains a slider option in the settings to change from normal, to 50 tiles, to 100 tiles, to 250 tiles, to infinite.",
-  "version": "1",
+  "version": "1.1",
   "minGameVersion": "140",
   "hidden": "true"
 }
