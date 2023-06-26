@@ -76,16 +76,4 @@ if (!Vars.headless) {
   });
 }
 
-Events.on(ClientLoadEvent, () => {
-    const lrStartup = new BaseDialog("longReach info");
-  // yes i do realize the hell i just typed out below
-    lrStartup.cont.add("To access the [orange]longReach mod[white]'s build range slider, go to: [orange]Settings -> Graphics [white]and [orange]scroll down. \n\n                                                        [red]Infinite build range is on by default. \n\n\n\n                      [white](it's like that because I don't know how to put it in a new settings category)").row();
-    lrStartup.cont.button("Close", () => lrStartup.hide()).size(100, 50);
-    lrStartup.show();
-});
-
-/* 
-TODO: add "lock movement" button to ease players, maybe one similar to scheme size's lock movement (because it's panning system is pro)
-nts: whats the point of big numbers (e.g. 2000, 4000, 8000) when Number.MAX_VALUE exist
-     besides, 250 tile reach on a 500x500 map just sounds awkward
-*/
+// TODO: add "lock movement" button to ease players, maybe one similar to scheme size's lock movement (because it's panning system is pro)
